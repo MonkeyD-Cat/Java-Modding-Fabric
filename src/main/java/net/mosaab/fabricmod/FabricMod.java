@@ -13,6 +13,6 @@ public class FabricMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello world!");
+		LOGGER.info("Hello wordle!");
 	}
 }
