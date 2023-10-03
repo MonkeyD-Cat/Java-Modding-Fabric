@@ -12,9 +12,11 @@ import net.mosaab.fabricmod.FabricMod;
 
 public class ModItems {
     public static final Item UNIONITE = registerItem("unionite", new Item(new FabricItemSettings()));
+    public static final Item UNIONITE_SCRAP = registerItem("unionite_scrap", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(UNIONITE);
+        entries.add(UNIONITE_SCRAP);
     }
 
     private static Item registerItem(String name, Item item){
