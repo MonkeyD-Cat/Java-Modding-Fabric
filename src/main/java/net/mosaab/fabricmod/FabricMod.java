@@ -3,6 +3,7 @@ package net.mosaab.fabricmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.item.Item;
+import net.mosaab.fabricmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +14,6 @@ public class FabricMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello wordle!");
+		ModItems.registerModItems();
 	}
 }
