@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fabricmod:block/unionite_block"
+    }
+  }
+}

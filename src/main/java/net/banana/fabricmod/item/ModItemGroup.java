@@ -1,6 +1,7 @@
 package net.banana.fabricmod.item;
 
 import net.banana.fabricmod.FabricMod;
+import net.banana.fabricmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,8 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.UNIONITE)).entries((displayContext, entries) -> {
                     entries.add(ModItems.UNIONITE);
                     entries.add(ModItems.UNIONITE_SCRAP);
+
+                    entries.add(ModBlocks.UNIONITE_BLOCK);
 
                     }).build());
 

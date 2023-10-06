@@ -1,6 +1,9 @@
 {
   "item.fabricmod.unionite": "Unionite",
   "item.fabricmod.unionite_scrap": "Unionite Scrap",
+  "item.fabricmod.unionite_block": "Unionite Block",
+
+  "block.fabricmod.unionite_block": "Unionite Block",
 
   "itemgroup.unionite": "Unionite Group"
 }

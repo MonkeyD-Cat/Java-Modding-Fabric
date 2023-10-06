@@ -9,12 +9,11 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block UNIONITE_BLOCK = registerBlock("unionite_block",
-            new Block(FabricBlockSettings.create().requiresTool().hardness(10f).resistance(800f).sounds(BlockSoundGroup.METAL)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(8f,800f)));
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(FabricMod.MOD_ID, name),
