@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.mosaab.fabricmod.FabricMod"
+          "net.banana.fabricmod.FabricMod"
 		],
 		"client": [
-			"net.mosaab.fabricmod.FabricModClient"
+          "net.banana.fabricmod.FabricModClient"
 		],
 		"fabric-datagen": [
-			"net.mosaab.fabricmod.FabricModDataGenerator"
+          "net.banana.fabricmod.FabricModDataGenerator"
 		]
 	},
 	"mixins": [

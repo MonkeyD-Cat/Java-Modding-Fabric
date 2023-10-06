@@ -1,4 +1,4 @@
-package net.mosaab.fabricmod;
+package net.banana.fabricmod;
 
 import net.fabricmc.api.ClientModInitializer;
 
