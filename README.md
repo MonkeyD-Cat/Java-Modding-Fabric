@@ -3,4 +3,4 @@ issa fabric guava mod
 
 
 
-<button href="jetbrains://idea/navigate/reference?project=Java Modding&path=E:/Java Modding/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2-sources.jar!/net/minecraft/block/Blocks.java">Tutorial For Modding</button>
+<button href="https://www.youtube.com/watch?v=0Pr_iHlVKsI&list=PLKGarocXCE1EO43Dlf5JGh7Yk-kRAXUEJ&index=1&pp=iAQB">Tutorial For Modding</button>
